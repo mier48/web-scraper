@@ -167,8 +167,8 @@ class WebScraper:
         print(f"Data saved to {file_path}")
 
 if __name__ == "__main__":
-    website_url = "https://www.ltrdigitalsolutions.com/"#input("Enter the URL of the website to scrape: ").strip()
-    max_depth_input = 2#input("Enter maximum depth (default=1): ").strip()
+    website_url = input("Enter the URL of the website to scrape: ").strip()
+    max_depth_input = input("Enter maximum depth (default=1): ").strip()
 
     try:
         max_depth = int(max_depth_input)
