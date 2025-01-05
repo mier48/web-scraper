@@ -1,5 +1,8 @@
 # Web Scraping Project
 
+[![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-blue.svg)](./README.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 This project implements a web scraper using Python. The scraper performs exploration (BFS) and analysis of web pages, extracting structured data and generating reports.
 
 ---
